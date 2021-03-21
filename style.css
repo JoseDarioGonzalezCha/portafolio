@@ -1,0 +1,427 @@
+
+*{  box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+body, ul, li, p{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+/*RESPONSIVIDADE*/
+
+/*HEADER*/
+
+header{
+    background-color: #3a3a3a;
+    width: 1919px;
+    height: 67px;
+    top: 0;
+    left: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 1;
+    padding-top: 15px;
+}
+
+header img {
+    top: 14px; 
+    margin-left: 500px; 
+    width: 50px; 
+    height: 50px; 
+    border: 1px solid #707070; 
+    opacity: 1; 
+    border-radius: 50%;
+}
+
+.menu{ display: flex;}
+
+header li{
+   
+    margin-right: 30px;
+}
+
+header li:last-child{ margin-right: 450px;}
+
+/*SECTION APRESENTAÇÃO*/
+
+.apresentação {
+    background-color: #f2f2f2;
+    width: 1919px;
+    height: 600px;
+    top: 0;
+    left: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "principa segundaria terciaria cuarta";
+    
+}
+h1{
+    font-size: 55px;
+    color: #707070;
+    width: 422px;
+    height: 73px;
+    font-weight: bold;
+    opacity: 1;
+    margin-bottom: 15px;
+}
+
+.title{
+    
+    font: normal;
+    margin-top: 50px;
+    font-style: italic;
+    font-size: 34px;
+    color: #707070;
+    width: 285;
+    height: 10px;
+    padding-top: 50px;
+    }
+
+h3{ 
+    width: 518px;
+    font-size: 34px;
+    color: #707070;
+    font: bold;
+    margin-top: 70px;
+    opacity: 1; 
+}
+.tituloun{
+   
+    color: #707070;
+    opacity: 1;
+    font: normal;
+    font-size: 21px;
+}
+
+.presentaciontres{
+    grid-area: segundaria;
+    margin-left: 100px;
+    
+}
+
+.presentacionuno{
+        grid-area: segundaria;
+        margin-left: 190px;
+        margin-top: 320px;
+}
+
+.presentaciondos{
+    grid-area: terciaria;
+}
+
+.fotop{
+    border-radius: 50%;
+}
+
+.logogit{
+    border-radius: 50%;
+    width: 50px; height: 50px;
+    margin-right: 15px;
+}
+
+.logostack{ border-radius: 50%;
+    width: 50px; height: 50px;
+    margin-right: 15px;
+}
+
+.logoface{
+    border-radius: 50%;
+    width: 50px; height: 50px;
+}
+
+/*SECTION FORMAÇÃO*/
+
+.formação {
+    background-color: #DEDEDE;
+    height: 353px;
+    width: 1919px;
+
+}
+
+h2.forma{
+    width: 230px;
+    height: 73px;
+    font-size: 35px;
+    color: #707070;
+    font: bold;
+    margin-left: 500px;
+    padding-top: 35px;
+    padding-bottom: 50px;
+}
+
+ul.estudos{
+    margin-left: 500px;
+    font-size: 21px;
+    color: #707070;
+   
+    margin-bottom: 40px;
+    
+}
+
+ul.estudosbrasil{
+    margin-left: 500px;
+    font-size: 21px;
+    color: #707070;
+}
+
+li.profesão{
+    font-weight: bold;
+    font-size: 31px;
+}
+
+
+/*SECTION EXPERIENCIA*/
+
+.experiencia {
+    background-color: #434343;
+    height: 353px;
+    width: 1919px;
+    margin-top: 0px;
+}
+h2.expe{
+        width: 230px;
+        height: 73px;
+        font-size: 35px;
+        color: #707070;
+        font: bold;
+        margin-left: 500px;
+        padding-top: 35px;
+        
+        
+}
+    
+ul.semantica{
+        margin-left: 500px;
+        font-size: 21px;
+        color: #707070;
+        margin-bottom: 40px;
+        padding-top: 35px;
+    }
+    
+ul.estilo{
+        margin-left: 500px;
+        font-size: 21px;
+        color: #707070;
+    }
+    
+li.seman{
+        font-weight: bold;
+        font-size: 31px;
+    }
+
+/*SECTION PROJETOS*/
+.projetos{
+        width: 1919px;
+        height: 518px;
+        background-color: #f2f2f2;
+        display: grid;
+        grid-template-columns: 510px 300px 300px 300px 509px;
+        grid-template-areas: "principa segundaria terciaria cuarta quinta";
+    }
+/*Titulo H2*/
+.proje{
+    grid-area: segundaria;
+    font-size: 34px;
+    color: #707070;
+    width: 285;
+    height: 46px;
+    padding-top: 50px;
+    }
+
+/*PRIMEIRA CAIXA*/
+.bloco1{
+    grid-area: segundaria;
+    margin-top: 100px;
+    width: 280px;
+    height: 380px;
+    background-color: #FFFFFF;
+    box-shadow: #00000029;
+    border-radius: 5%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    opacity: 1;
+    padding: 5px;
+    }
+
+.bloco1{
+    flex-direction: column;
+    }
+
+    .primepro{
+        border-radius: 5%;
+    }
+
+    .protitul{
+        width: 280px;
+        margin-top: 15px;
+    }
+
+    .paragrafogit{
+    color: #707070;
+    opacity: 1;
+    font: normal;
+    font-size: 21px;
+    }
+
+    .botoncaixa1{
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    opacity: 100x;
+    }
+
+    button{
+    width: 110px;
+    height: 34px;
+    border-radius: 5px;
+    background-color: #585858;
+    opacity: 100%;
+    font-size: 12px;
+    color: #FFFFFF;
+    
+    }
+
+/*SEGUNDA CAIXA*/  
+.bloco2{
+    grid-area: terciaria;
+    margin-top: 100Px;
+    width: 280px;
+    height: 380px;
+    background-color: #FFFFFF;
+    box-shadow: #00000029;
+    border-radius: 5%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    opacity: 1;
+    padding: 5px;
+}
+
+.bloco2{
+    flex-direction: column;
+    }
+
+/*TERCEIRA CAIXA*/
+.bloco3{
+    grid-area: cuarta;
+    margin-top: 100px;
+    width: 280px;
+    height: 380px;
+    background-color: #FFFFFF;
+    box-shadow: #00000029;
+    border-radius: 5%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    opacity: 1;
+    padding: 5px;
+}
+
+.bloco3{
+    flex-direction: column;
+}
+
+    
+
+
+/*SECTION FOOTER*/
+footer {
+    background-color: #000000;
+    height: 609px;
+    width: 1919px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "AAAA BBBB CCCC DDDD";
+}
+/*TITULO H2*/
+.conta{
+    grid-area: BBBB;
+    font-size: 44px;
+    color: #FFFFFF;
+    width: 285;
+    height: 46px;
+    padding-top: 50px;
+    margin-left: 20px;
+}
+/*BLOCO DADOS*/
+.dados{
+
+    grid-area: BBBB;
+    font-size: 21px;
+    width: 398px;
+    height: 200px;
+    color: #707070;
+    margin-top: 140px;
+}
+.parrafocontato{
+    padding: 20px;
+}
+/*BLOCO REDES*/
+
+.redes{
+    grid-area: BBBB;
+    margin-top: 450px;
+}
+
+.iconeredes{
+    margin-top: 30px;
+}
+
+.icoface{
+    margin-right: 60px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.icoinsta{
+    margin-right: 60px;
+}
+
+.iconetwe{
+    border-radius: 50%;
+}
+
+/*FORMULARIO*/
+.formulario{
+    grid-area: CCCC;
+    margin-top: 120px;
+}
+
+.nomes{
+    margin-bottom: 20px;
+}
+.mail{
+    margin-bottom: 20px;
+}
+.sen{
+    margin-bottom: 20px;
+}
+.mensa{
+    margin-bottom: 20px;
+}
+.enviar{
+    padding-left: 180px;
+}
+.etiqueta{
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
